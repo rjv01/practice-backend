@@ -24,9 +24,11 @@ app.use(express.json());
 
 
 const transporter = nodemailer.createTransport({
-    secure:true,
-    host:"smtp.gmail.com",
-    port:465,
+    secure:false,
+    host:"smtp.ethereal.email",
+    // host:"smtp.gmail.com",
+    port:587,
+    // port:465,
     auth:{
         user:process.env.EMAIL,
         pass:process.env.PASSWORD,
