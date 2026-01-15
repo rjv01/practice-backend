@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 const allowedOrigins = [
-        "https://practice-re-charts-js-zustand-auth0.vercel.app/",
+        "https://practice-re-charts-js-zustand-auth0.vercel.app",
         "http://localhost:5173"
     ];
     
